@@ -26,6 +26,8 @@
     .btn:hover {
 
         transform: scale(0.99); 
+        background-color: coral;
+        cursor:pointer;
         
     }
 

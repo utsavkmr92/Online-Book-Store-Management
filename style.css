@@ -143,11 +143,13 @@ a {
     .showcase-form {
 
     position: relative;
-    top: 160px; height:
-    380px; width:
-    400px; padding:
-    40px; z-index: 90;
+    top: 160px; 
+    height:380px;
+    width:400px; 
+    padding:40px; 
+    z-index: 90;
     justify-self: flex-end;
+    background-color: rgb(149, 37, 37);;
 
     }
 
