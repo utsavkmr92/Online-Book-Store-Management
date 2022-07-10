@@ -59,19 +59,18 @@ library.
  </p>
  </div>
  <div class="showcase-form card">
- <h2>Add Book</h2>
+ <h2>Serach for Book</h2>
  <form method="POST" action="/api/v1/appointments"> 
     <div class="form-control">
-        <input type="text" name="name" placeholder="Book Name" required>
+        <input type="text" name="title" placeholder="Book title" required>
        </div>
         <div class="form-control">
-        <input type="text" name="number" placeholder="What is this book about?" required>
+        <input type="text" name="category" placeholder="Book Category" required>
         </div>
         <div class="form-control">
-        <input type="email" name="email" placeholder="You email?" required>
-        <input type="file" name="book" id="book_file" placeholder="upload the book" required>
+        <input type="text" name="author" placeholder="author's name" required>
         </div>
-        <input type="submit" value="Submit Book!" class="btn btn-primary">
+        <a href="index.book.html"> <input type="button" value="Search" class="btn btn-primary"> </a>
        </form>
         </div>
         </div>
